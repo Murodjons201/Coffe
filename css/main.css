@@ -65,6 +65,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-style: normal;
     font-weight: normal;
+    background-color: #FEFCF7;
 }
 
 .container {
@@ -156,6 +157,7 @@ img {
 /* MAIN */
 
 .gread-coffe {
+    margin-bottom: 136px;
     padding: 117px 702px 116px 85px;
     background-image: url("../images/Bitmap-images.jpg");
     background-repeat: no-repeat;
@@ -210,4 +212,61 @@ img {
     background-color: #FEFCF7;
     color: #66D2CF;
     opacity: 0.5;
+}
+
+/* our-collection */
+
+.our-collection {
+    width: 1111px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.collection-title {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    top: -70px;
+}
+
+.collection-item {
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collection-item-link {
+    text-decoration: none;
+}
+
+.collection-item-img {
+    margin-bottom: 71px;
+}
+
+.collection-item-heading {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection-item-desc {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
 }
