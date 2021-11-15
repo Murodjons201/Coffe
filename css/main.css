@@ -93,6 +93,7 @@ img {
 .site-header {
     width: 100%;
     position: fixed;
+    z-index: 1000;
     top: 0;
     left: 0;
     background-color: #fff;
@@ -156,8 +157,11 @@ img {
 
 /* MAIN */
 
-.gread-coffe {
+.main-top-section {
     margin-bottom: 136px;
+}
+
+.gread-coffe {
     padding: 117px 702px 116px 85px;
     background-image: url("../images/Bitmap-images.jpg");
     background-repeat: no-repeat;
@@ -192,7 +196,6 @@ img {
     padding: 16px 31px;
     background-color: #66D2CF;
     font-family: Fraunces 9pt;
-    font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 25px;
@@ -216,10 +219,18 @@ img {
 
 /* our-collection */
 
+.our-collection-section {
+    margin: 136px 0 200px;
+}
+
 .our-collection {
     width: 1111px;
     margin: 0 auto;
-    margin-bottom: 130px;
+    padding-top: 126px;
+    position: relative;
+    background-image: url("../images/collection.svg");
+    background-repeat: no-repeat;
+    background-size: 1111px 196px;
 }
 
 .collection-title {
@@ -228,8 +239,6 @@ img {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    position: relative;
-    top: -70px;
 }
 
 .collection-item {
@@ -270,3 +279,192 @@ img {
     text-align: center;
     color: #333D4B;
 }
+
+/* question */
+
+.question-section {
+    margin-bottom: 350px;
+}
+
+.question {
+    padding: 110px 370px 317px;
+    background-image: url("../images/question.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.question-heading {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.question-desk {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.question-title {
+    margin: 0;
+    padding: 0;
+    width: 1110px;
+    position: absolute;
+    left: 85px;
+    top: 345px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.question-item {
+    margin: 0;
+    padding: 72px 47px 47px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.question-item-img {
+    margin-bottom: 56px;
+}
+
+.question-item-heading {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.question-item-desc {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+/* last-section */
+
+.last-section {
+    margin-bottom: 200px;
+}
+
+.last-section-hero {
+    margin-left: 85px;
+}
+
+.last-section-hero-heading {
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.line-circle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.line {
+    width: 380px;
+    height: 1px;
+    background-color: #FDD6BA;
+}
+
+.last-section-hero-title {
+    margin: 0;
+    margin-bottom: 65px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.last-section-hero-item {
+    width: 285px;
+}
+
+.last-section-hero-item + .last-section-hero-item {
+    margin-left: 95px;
+}
+
+.last-section-hero-item-number {
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.last-section-hero-item-heading {
+    margin: 38px 0 42px;
+    padding: 0;
+    width: 200px;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.last-section-hero-item-desc {
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.last-section-hero-button {
+    margin: 0;
+    padding: 16px 31px;
+    background-color: #66D2CF;
+    font-family: Fraunces 9pt;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    transition: border 0.5s;
+}
+
+.last-section-hero-button:hover {
+    border: 2px solid #00f;
+}
+
+/* footer */
+
