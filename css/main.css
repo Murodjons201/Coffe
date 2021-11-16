@@ -701,6 +701,43 @@ img {
     width: 285px;
 }
 
-.Our-headquarters-hero-item {
+.Our-headquarters-hero-item + .Our-headquarters-hero-item {
+    margin-left: 110px;
+}
+
+.Our-headquarters-hero-item-link {
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+
+}
+
+.Our-headquarters-hero-item-img {
+    margin-bottom: 46px;
+}
+
+.Our-headquarters-hero-item-heading {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.Our-headquarters-hero-item-desc {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.Our-headquarters-hero-item-desc + .Our-headquarters-hero-item-desc {
+    margin-top: 5px;
 }
