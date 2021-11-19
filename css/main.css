@@ -50,7 +50,9 @@
 
 /* General site */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -72,11 +74,10 @@ body {
     background-color: #FEFCF7;
 }
 
-.container {
+img {
     max-width: 100%;
-    width: 1320px;
-    margin: 0 auto;
-    padding: 0 20px;
+    height: auto;
+    display: inline-block;
 }
 
 .visually-hidden {
@@ -87,6 +88,13 @@ body {
     position: absolute;
     white-space: nowrap;
     width: 1px;
+}
+
+.container {
+    max-width: 100%;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* HEADER */
